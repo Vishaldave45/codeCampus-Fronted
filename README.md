@@ -120,11 +120,4 @@ npm start
 * **Vishal Dave**
 * Frontend Developer | React Enthusiast
 
-```
 
----
-
-If you want, I can **also prepare a version with small screenshots or code snippets embedded**, which will make your README **GitHub-ready and more professional**.  
-
-Do you want me to do that next?
-```
