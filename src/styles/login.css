@@ -1,0 +1,77 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html {
+  height: 100%;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.login-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.login-card h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.login-card form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.login-card form input:focus {
+  border-color: #2575fc;
+  outline: none;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  background: #2575fc;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-card button:hover {
+  background: #6a11cb;
+}
+
+.login-card p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.login-card p a {
+  color: #2575fc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-card p a:hover {
+  text-decoration: underline;
+}
